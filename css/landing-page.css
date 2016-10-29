@@ -429,7 +429,7 @@ p.copyright {
   width: 10%;
   height: 300px;
   display: inline-block;
-  background-color: #E83F6F;
+  background-color: #f77722;
   cursor: pointer;
   position: relative;
   -webkit-transition: width .5s ease-in-out, background-color .5s ease-in-out;
@@ -441,7 +441,7 @@ p.copyright {
 }
 
 .block:hover {
-  background-color: #2274A5;
+  background-color: #252525;
   width: 30%;
   -webkit-transition: width .5s ease-in-out, background-color .5s ease-in-out;
   -moz-transition: width .5s ease-in-out, background-color .5s ease-in-out;
@@ -460,7 +460,7 @@ p.copyright {
 }
 
 .block:hover .layer {
-  opacity: .5;
+  opacity: .7;
   -webkit-transition: opacity .5s ease-in-out;
   -moz-transition: opacity .5s ease-in-out;
   -ms-transition: opacity .5s ease-in-out;
@@ -481,23 +481,30 @@ p.copyright {
 }
 
 .img-p {
+  font-weight: lighter;
   position: absolute;
-  font-size: 12px;
+  font-size: 13px;
   opacity: 0;
   color: #FFF;
-  text-align: left;
+  text-align: center;
   line-height: 1.6em;
 }
+ 
+.project-heading{
+   color: #fff;
+   font-size: 17px;
+}
+
 
 .p-container {
   width: 80%;
   position: relative;
-  top: 35%;
-  margin-left: 5%;
+  top: 30%;
+  margin-left: 10%;
 }
 
 .image1 {
-  background-image: url(https://3.bp.blogspot.com/-OJ_TmiAMw7Y/VS1Iv7B-8LI/AAAAAAAA1yg/2-AVmZus5NQ/s600/ALPHA+Camp%25E3%2580%258220150415%25E3%2580%2582ALPHA+Camp%25E6%258F%2590%25E4%25BE%259B%25E3%2580%2582.jpg);
+  background-image: url(https://scontent-tpe1-1.xx.fbcdn.net/t31.0-8/14543775_961301853976447_2423139417744844607_o.jpg);
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -506,7 +513,7 @@ p.copyright {
 }
 
 .image2 {
-  background-image: url(2.jpg);
+  background-image: url(https://scontent-tpe1-1.xx.fbcdn.net/t31.0-8/14708024_1114490035303543_5421728369374857857_o.jpg);
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -515,7 +522,25 @@ p.copyright {
 }
 
 .image3 {
-  background-image: url(3.jpg);
+  background-image: url(https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/14650093_1264129373618693_9021221558632879789_n.png?oh=1ab47dc37331703548f34298444cd4d9&oe=589BA553);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image4 {
+  background-image: url(https://scontent-tpe1-1.xx.fbcdn.net/t31.0-8/14258112_256957964704472_1174510574453968995_o.png);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image5 {
+  background-image: url(https://scontent-tpe1-1.xx.fbcdn.net/t31.0-8/14691311_175437542906942_4922033367942789089_o.jpg);
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;

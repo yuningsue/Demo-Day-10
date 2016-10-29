@@ -27,17 +27,15 @@
       loop : true,
       autoplayTimeout: 1000,
       autoplayHoverPause: true,
-      lazyLoad:true,
       autoplaySpeed: false
 
   });
 
-  var intro = $("#owl-item");
+  var intro = $("#intro-photo");
   intro.owlCarousel({
  
       aautoplayTimeout: 2000, //Set AutoPlay to 3 seconds
       loop:true,
-      lazyLoad:true,
       items : 1, //10 items above 1000px browser width
       responsive: {
       	1024: {items :4},
